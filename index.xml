@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>home</title>
+    <link>/</link>
+    <description>Recent content on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC by-nc 4.0</copyright>
+    <lastBuildDate>Thu, 08 Sep 2016 23:47:30 +1000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>osx notes</title>
+      <link>/post/osx-notes/</link>
+      <pubDate>Thu, 08 Sep 2016 23:47:30 +1000</pubDate>
+      
+      <guid>/post/osx-notes/</guid>
+      <description>
+
+&lt;p&gt;Random notes for OS X dev environment.&lt;/p&gt;
+
+&lt;h1 id=&#34;brew&#34;&gt;Brew&lt;/h1&gt;
+
+&lt;p&gt;Install home brew, the missing OS X package manager - &lt;a href=&#34;http://brew.sh/&#34;&gt;http://brew.sh/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;brew-packages&#34;&gt;brew packages&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install hugo node websocketd thefuck linode-cli maven wget mtr dos2unix blackbox
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;list installed packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;npm&#34;&gt;npm&lt;/h1&gt;
+
+&lt;p&gt;Node packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo npm install -g bower
+sudo npm install -g gulp grunt
+sudo npm install -g less csslint
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;List all installed packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm list -g --depth 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;pip-packages&#34;&gt;Pip packages&lt;/h1&gt;
+
+&lt;p&gt;python packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo pip install Jinja2
+sudo pip install ansible
+sudo pip install Fabric
+sudo pip install Pygments
+sudo pip install awscli
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;list installed&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ruby-packages&#34;&gt;Ruby packages&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo gem install jekyll bundler sass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;list installed gems&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;os-x-guides-and-tools&#34;&gt;OS X guides and tools&lt;/h1&gt;
+
+&lt;h2 id=&#34;awesome-osx-command-line&#34;&gt;awesome osx command line&lt;/h2&gt;
+
+&lt;p&gt;A curated list of shell commands and tools specific to OS X.
+&lt;a href=&#34;https://github.com/herrbischoff/awesome-osx-command-line&#34;&gt;https://github.com/herrbischoff/awesome-osx-command-line&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;a-practical-guide-to-securing-os-x&#34;&gt;A practical guide to securing OS X&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/drduh/OS-X-Security-and-Privacy-Guide&#34;&gt;https://github.com/drduh/OS-X-Security-and-Privacy-Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;osxcollector&#34;&gt;OSXCollector&lt;/h2&gt;
+
+&lt;p&gt;A forensic evidence collection &amp;amp; analysis toolkit for OS X &lt;a href=&#34;http://yelp.github.io/osxcollector&#34;&gt;http://yelp.github.io/osxcollector&lt;/a&gt; (is a single Python file that runs without any dependencies)&lt;/p&gt;
+
+&lt;h2 id=&#34;little-snitch-firewall&#34;&gt;Little Snitch Firewall&lt;/h2&gt;
+
+&lt;p&gt;Buy it &lt;a href=&#34;https://www.obdev.at/products/littlesnitch/index.html&#34;&gt;https://www.obdev.at/products/littlesnitch/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;objective-see&#34;&gt;Objective-See&lt;/h2&gt;
+
+&lt;p&gt;Free, high quality, tools to detect malware  &lt;a href=&#34;https://objective-see.com/products.html&#34;&gt;https://objective-see.com/products.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;iterm2&#34;&gt;iterm2&lt;/h2&gt;
+
+&lt;p&gt;Replacement terminal &lt;a href=&#34;https://www.iterm2.com/&#34;&gt;https://www.iterm2.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>hello world</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Mon, 20 Jun 2016 14:00:00 +0000</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>
+
+&lt;h3 id=&#34;first-real-post&#34;&gt;first [real] post&lt;/h3&gt;
+
+&lt;p&gt;This post, and site, was created with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;new&#34;&gt;Hugo&lt;/a&gt;, a static site generator created in &lt;a href=&#34;https://golang.org/&#34; target=&#34;new&#34;&gt;Go&lt;/a&gt;. Slowly making my own Hugo theme to suit my needs. Styling is all &lt;a href=&#34;https://getbootstrap.com/&#34; target=&#34;new&#34;&gt;Bootstrap&lt;/a&gt;, lazy web-dev indeed.&lt;/p&gt;
+
+&lt;p&gt;Barely touched the CSS.. Apologies, I wanted to get something up (in &lt;a href=&#34;https://validator.w3.org/nu/?doc=https%3A%2F%2Fcrgm.net%2Fabout%2F&#34; target=&#34;new&#34;&gt;valid html&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Sill have to import my old content, tweak my &lt;a href=&#34;https://www.linode.com/stackscripts&#34; target=&#34;new&#34;&gt;StackScripts&lt;/a&gt;, finish off Ansible playbook&amp;rsquo;s and iron out some bugs still, but this thing is coming along now.&lt;/p&gt;
+
+&lt;p&gt;After two weeks of part time work I have a good, custom, base hosting stack though :-)&lt;/p&gt;
+
+&lt;p&gt;More to come.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lorem ipsum</title>
+      <link>/post/lorem-ipsum/</link>
+      <pubDate>Fri, 17 Jun 2016 13:00:00 +0000</pubDate>
+      
+      <guid>/post/lorem-ipsum/</guid>
+      <description>
+
+&lt;h1 id=&#34;pellentesque-consequat-tortor-sed&#34;&gt;Pellentesque consequat tortor sed&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus quis est ac sagittis. Maecenas mollis eget massa ultricies suscipit. In finibus id augue vitae consequat. Sed ac diam et tortor placerat faucibus a a elit. In at accumsan ex. In hac habitasse platea dictumst. In mattis, ante ac condimentum congue, odio lectus tempus urna, in pretium eros risus nec dui. Suspendisse interdum tellus sit amet lectus lobortis mattis. Mauris ornare diam sed consectetur mattis. Integer tortor dolor, tempor id faucibus vel, mattis quis turpis. Proin ut purus consequat, semper eros vitae, eleifend metus. Morbi pretium commodo tristique. Aenean viverra dui at nisl mollis ornare.&lt;/p&gt;
+
+&lt;h2 id=&#34;quisque-ac-velit&#34;&gt;Quisque ac velit&lt;/h2&gt;
+
+&lt;p&gt;Aliquam ipsum sapien, bibendum ac tempus ac, mollis vitae massa. Nulla posuere, risus sit amet euismod volutpat, mi diam tempor ante, vitae suscipit augue felis nec leo. Vestibulum pulvinar sapien nisi, ac laoreet quam blandit nec. Vestibulum vel sapien vel ligula consectetur euismod. Maecenas porta eu augue ac maximus. Ut ut magna luctus nulla ultricies condimentum nec id quam. Curabitur imperdiet massa urna, et vulputate libero vehicula in. Nulla id vehicula neque.&lt;/p&gt;
+
+&lt;h3 id=&#34;nullam-ultricies-suscipi&#34;&gt;Nullam ultricies suscipi&lt;/h3&gt;
+
+&lt;p&gt;Phasellus nisi ante, pretium et sollicitudin et, interdum sit amet lacus. Integer et ullamcorper turpis, iaculis condimentum nisl. Duis at facilisis leo. Vestibulum consectetur commodo venenatis. Maecenas placerat semper nunc fringilla convallis. Phasellus laoreet nec urna eu laoreet. Morbi imperdiet lorem arcu, non fermentum ipsum feugiat gravida. Nullam laoreet, augue a placerat cursus, turpis ipsum consequat augue, et sodales nibh odio et diam. Maecenas ultricies aliquam gravida. Vivamus pellentesque quam ut lorem rutrum, ut lacinia diam ullamcorper. Vivamus posuere leo tortor, in tincidunt tortor tempor vel.&lt;/p&gt;
+
+&lt;h4 id=&#34;ipsum-fermentum&#34;&gt;ipsum fermentum&lt;/h4&gt;
+
+&lt;p&gt;Maecenas placerat semper nunc fringilla convallis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;the-site&#34;&gt;The site&lt;/h1&gt;
+
+&lt;p&gt;
+  The current homepage and hosting arrangement, because I wanted my own toy platform instead of using Blogger.
+&lt;/p&gt;
+&lt;p&gt;
+  Eventually I will publish and document all the source (playbooks, Dockerfiles, Vagrantfile etc) here.
+&lt;/p&gt;
+&lt;p&gt;
+  This host is &lt;a href=&#34;http://ipv6-test.com/validate.php?url=https://crgm.net/&#34; target=&#34;new&#34;&gt;IPv6 enabled&lt;/a&gt; and has an A+ &lt;a target=&#34;new&#34; href=&#34;https://www.ssllabs.com/ssltest/analyze.html?viaform=on&amp;d=crgm.net&amp;hideResults=on&#34;&gt;SSL Labs&lt;/a&gt; score. I have tried to make the HTML as semantic as possible.&lt;/p&gt;
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;powered-by&#34;&gt;Powered by&lt;/h1&gt;
+
+&lt;p&gt;
+  &lt;strong&gt;Site:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;https://getbootstrap.com/&#34;&gt;Bootstrap&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;http://sass-lang.com/&#34;&gt;Sass&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;Web tool:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://www.npmjs.com/&#34;&gt;npm&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;https://bower.io/&#34;&gt;Bower&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;http://gruntjs.com/&#34;&gt;Grunt&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;Load balancer:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;http://www.haproxy.org/&#34;&gt;HAProxy&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;Backend:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://www.docker.com/&#34;&gt;Docker&lt;/a&gt; containers:
+&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a target=&#34;new&#34; href=&#34;https://hub.docker.com/_/nginx/&#34;&gt;Nginx&lt;/a&gt; alpine (x2) - static hosting&lt;/li&gt;
+  &lt;li&gt;&lt;a target=&#34;new&#34; href=&#34;https://hub.docker.com/_/ubuntu/&#34;&gt;Ubuntu&lt;/a&gt; latest - Apache + php&lt;/li&gt;
+  &lt;li&gt;&lt;a target=&#34;new&#34; href=&#34;https://hub.docker.com/_/node/&#34;&gt;NodeJS&lt;/a&gt; - Building Bootstrap etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+  &lt;strong&gt;Management:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://www.ansible.com/&#34;&gt;Ansible&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;http://www.fabfile.org/&#34;&gt;Fabric&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;Testing:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;http://serverspec.org/&#34;&gt;Serverspec&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;https://github.com/sstephenson/bats&#34;&gt;Bats&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;Monitor:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://ossec.github.io/&#34;&gt;ossec&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;https://papertrailapp.com&#34;&gt;papertrail&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;OS:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://www.debian.org/&#34;&gt;Debian&lt;/a&gt; + &lt;a target=&#34;new&#34; href=&#34;https://kernel.org/&#34;&gt;Linux&lt;/a&gt; kernel + &lt;a target=&#34;new&#34; href=&#34;https://grsecurity.net/&#34;&gt;grsecurity&lt;/a&gt; patches
+&lt;/p&gt;
+&lt;p&gt;
+  &lt;strong&gt;Hosting:&lt;/strong&gt; &lt;a target=&#34;new&#34; href=&#34;https://www.linode.com/&#34;&gt;Linode&lt;/a&gt; (vps) + &lt;a target=&#34;new&#34; href=&#34;https://letsencrypt.org/&#34;&gt;letsencrypt.org&lt;/a&gt; (ssl) + &lt;a target=&#34;new&#34; href=&#34;https://www.gandi.net/&#34;&gt;gandi&lt;/a&gt; (dns)
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>
+
+&lt;h2 id=&#34;email&#34;&gt;Email&lt;/h2&gt;
+
+&lt;p&gt;admin @ crgm dot net&lt;/p&gt;
+
+&lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/craig-m&#34;&gt;https://github.com/craig-m&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;twitter&#34;&gt;Twitter&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/crgm_net&#34;&gt;@crgm_net&lt;/a&gt; (mostly a bot account)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on home</title>
+    <link>/note/</link>
+    <description>Recent content in Notes on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Dec 1969 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>note</title>
+      <link>/note/note/</link>
+      <pubDate>Wed, 31 Dec 1969 00:00:00 +0000</pubDate>
+      
+      <guid>/note/note/</guid>
+      <description>
+
+&lt;h4 id=&#34;note&#34;&gt;note&lt;/h4&gt;
+
+&lt;p&gt;noted&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

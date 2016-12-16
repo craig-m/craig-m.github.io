@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdev on home</title>
+    <link>/tags/webdev/</link>
+    <description>Recent content in Webdev on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC by-nc 4.0</copyright>
+    <lastBuildDate>Mon, 20 Jun 2016 14:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/webdev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>hello world</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Mon, 20 Jun 2016 14:00:00 +0000</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>
+
+&lt;h3 id=&#34;first-real-post&#34;&gt;first [real] post&lt;/h3&gt;
+
+&lt;p&gt;This post, and site, was created with &lt;a href=&#34;https://gohugo.io/&#34; target=&#34;new&#34;&gt;Hugo&lt;/a&gt;, a static site generator created in &lt;a href=&#34;https://golang.org/&#34; target=&#34;new&#34;&gt;Go&lt;/a&gt;. Slowly making my own Hugo theme to suit my needs. Styling is all &lt;a href=&#34;https://getbootstrap.com/&#34; target=&#34;new&#34;&gt;Bootstrap&lt;/a&gt;, lazy web-dev indeed.&lt;/p&gt;
+
+&lt;p&gt;Barely touched the CSS.. Apologies, I wanted to get something up (in &lt;a href=&#34;https://validator.w3.org/nu/?doc=https%3A%2F%2Fcrgm.net%2Fabout%2F&#34; target=&#34;new&#34;&gt;valid html&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;Sill have to import my old content, tweak my &lt;a href=&#34;https://www.linode.com/stackscripts&#34; target=&#34;new&#34;&gt;StackScripts&lt;/a&gt;, finish off Ansible playbook&amp;rsquo;s and iron out some bugs still, but this thing is coming along now.&lt;/p&gt;
+
+&lt;p&gt;After two weeks of part time work I have a good, custom, base hosting stack though :-)&lt;/p&gt;
+
+&lt;p&gt;More to come.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>lorem ipsum</title>
+      <link>/post/lorem-ipsum/</link>
+      <pubDate>Fri, 17 Jun 2016 13:00:00 +0000</pubDate>
+      
+      <guid>/post/lorem-ipsum/</guid>
+      <description>
+
+&lt;h1 id=&#34;pellentesque-consequat-tortor-sed&#34;&gt;Pellentesque consequat tortor sed&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus quis est ac sagittis. Maecenas mollis eget massa ultricies suscipit. In finibus id augue vitae consequat. Sed ac diam et tortor placerat faucibus a a elit. In at accumsan ex. In hac habitasse platea dictumst. In mattis, ante ac condimentum congue, odio lectus tempus urna, in pretium eros risus nec dui. Suspendisse interdum tellus sit amet lectus lobortis mattis. Mauris ornare diam sed consectetur mattis. Integer tortor dolor, tempor id faucibus vel, mattis quis turpis. Proin ut purus consequat, semper eros vitae, eleifend metus. Morbi pretium commodo tristique. Aenean viverra dui at nisl mollis ornare.&lt;/p&gt;
+
+&lt;h2 id=&#34;quisque-ac-velit&#34;&gt;Quisque ac velit&lt;/h2&gt;
+
+&lt;p&gt;Aliquam ipsum sapien, bibendum ac tempus ac, mollis vitae massa. Nulla posuere, risus sit amet euismod volutpat, mi diam tempor ante, vitae suscipit augue felis nec leo. Vestibulum pulvinar sapien nisi, ac laoreet quam blandit nec. Vestibulum vel sapien vel ligula consectetur euismod. Maecenas porta eu augue ac maximus. Ut ut magna luctus nulla ultricies condimentum nec id quam. Curabitur imperdiet massa urna, et vulputate libero vehicula in. Nulla id vehicula neque.&lt;/p&gt;
+
+&lt;h3 id=&#34;nullam-ultricies-suscipi&#34;&gt;Nullam ultricies suscipi&lt;/h3&gt;
+
+&lt;p&gt;Phasellus nisi ante, pretium et sollicitudin et, interdum sit amet lacus. Integer et ullamcorper turpis, iaculis condimentum nisl. Duis at facilisis leo. Vestibulum consectetur commodo venenatis. Maecenas placerat semper nunc fringilla convallis. Phasellus laoreet nec urna eu laoreet. Morbi imperdiet lorem arcu, non fermentum ipsum feugiat gravida. Nullam laoreet, augue a placerat cursus, turpis ipsum consequat augue, et sodales nibh odio et diam. Maecenas ultricies aliquam gravida. Vivamus pellentesque quam ut lorem rutrum, ut lacinia diam ullamcorper. Vivamus posuere leo tortor, in tincidunt tortor tempor vel.&lt;/p&gt;
+
+&lt;h4 id=&#34;ipsum-fermentum&#34;&gt;ipsum fermentum&lt;/h4&gt;
+
+&lt;p&gt;Maecenas placerat semper nunc fringilla convallis.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

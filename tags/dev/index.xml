@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev on home</title>
+    <link>/tags/dev/</link>
+    <description>Recent content in Dev on home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>CC by-nc 4.0</copyright>
+    <lastBuildDate>Thu, 08 Sep 2016 23:47:30 +1000</lastBuildDate>
+    <atom:link href="/tags/dev/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>osx notes</title>
+      <link>/post/osx-notes/</link>
+      <pubDate>Thu, 08 Sep 2016 23:47:30 +1000</pubDate>
+      
+      <guid>/post/osx-notes/</guid>
+      <description>
+
+&lt;p&gt;Random notes for OS X dev environment.&lt;/p&gt;
+
+&lt;h1 id=&#34;brew&#34;&gt;Brew&lt;/h1&gt;
+
+&lt;p&gt;Install home brew, the missing OS X package manager - &lt;a href=&#34;http://brew.sh/&#34;&gt;http://brew.sh/&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;brew-packages&#34;&gt;brew packages&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install hugo node websocketd thefuck linode-cli maven wget mtr dos2unix blackbox
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;list installed packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;npm&#34;&gt;npm&lt;/h1&gt;
+
+&lt;p&gt;Node packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo npm install -g bower
+sudo npm install -g gulp grunt
+sudo npm install -g less csslint
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;List all installed packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;npm list -g --depth 0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;pip-packages&#34;&gt;Pip packages&lt;/h1&gt;
+
+&lt;p&gt;python packages&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo pip install Jinja2
+sudo pip install ansible
+sudo pip install Fabric
+sudo pip install Pygments
+sudo pip install awscli
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;list installed&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pip list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;ruby-packages&#34;&gt;Ruby packages&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;sudo gem install jekyll bundler sass
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;list installed gems&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;gem list
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;os-x-guides-and-tools&#34;&gt;OS X guides and tools&lt;/h1&gt;
+
+&lt;h2 id=&#34;awesome-osx-command-line&#34;&gt;awesome osx command line&lt;/h2&gt;
+
+&lt;p&gt;A curated list of shell commands and tools specific to OS X.
+&lt;a href=&#34;https://github.com/herrbischoff/awesome-osx-command-line&#34;&gt;https://github.com/herrbischoff/awesome-osx-command-line&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;a-practical-guide-to-securing-os-x&#34;&gt;A practical guide to securing OS X&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/drduh/OS-X-Security-and-Privacy-Guide&#34;&gt;https://github.com/drduh/OS-X-Security-and-Privacy-Guide&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;osxcollector&#34;&gt;OSXCollector&lt;/h2&gt;
+
+&lt;p&gt;A forensic evidence collection &amp;amp; analysis toolkit for OS X &lt;a href=&#34;http://yelp.github.io/osxcollector&#34;&gt;http://yelp.github.io/osxcollector&lt;/a&gt; (is a single Python file that runs without any dependencies)&lt;/p&gt;
+
+&lt;h2 id=&#34;little-snitch-firewall&#34;&gt;Little Snitch Firewall&lt;/h2&gt;
+
+&lt;p&gt;Buy it &lt;a href=&#34;https://www.obdev.at/products/littlesnitch/index.html&#34;&gt;https://www.obdev.at/products/littlesnitch/index.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;objective-see&#34;&gt;Objective-See&lt;/h2&gt;
+
+&lt;p&gt;Free, high quality, tools to detect malware  &lt;a href=&#34;https://objective-see.com/products.html&#34;&gt;https://objective-see.com/products.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;iterm2&#34;&gt;iterm2&lt;/h2&gt;
+
+&lt;p&gt;Replacement terminal &lt;a href=&#34;https://www.iterm2.com/&#34;&gt;https://www.iterm2.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

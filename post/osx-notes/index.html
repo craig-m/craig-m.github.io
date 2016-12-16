@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="crgm.net">
+  <meta name="description" content="crgm.net - my homepage">
+  <meta name="author" content="crgm">
+
+  <title>crgm.net - osx notes</title>
+
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+  <script src="/jquery/dist/jquery.js"></script>
+  <link rel="stylesheet" href="/css/layout.css">
+  <script src="/bootstrap/js/bootstrap.js"></script>
+
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79519788-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<ul class="nav navbar-nav">
+		  <li class="nav-item">
+				<a href="/" title="home"><span title="home" class="glyphicon glyphicon glyphicon-home"></span> home</a>
+			</li>
+			<li class="nav-item">
+				<a href="/post/" title="posts"><span title="posts" class="glyphicon glyphicon glyphicon-book"></span> posts</a>
+			</li>
+			
+		  <li class="nav-item">
+				<a href="/contact/" title="contact"><span title="contact" class="glyphicon glyphicon-envelope"></span> contact</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+
+<header class="container page-header">
+  <h1>osx notes</h1>
+  
+  <date class="post-date">Thu, Sep 8, 2016</date>
+  
+</header>
+
+<article class="container clear-top">
+
+  <section id="content">
+    
+
+<p>Random notes for OS X dev environment.</p>
+
+<h1 id="brew">Brew</h1>
+
+<p>Install home brew, the missing OS X package manager - <a href="http://brew.sh/">http://brew.sh/</a></p>
+
+<pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<h2 id="brew-packages">brew packages</h2>
+
+<pre><code>brew install hugo node websocketd thefuck linode-cli maven wget mtr dos2unix blackbox
+</code></pre>
+
+<p>list installed packages</p>
+
+<pre><code>brew list
+</code></pre>
+
+<h1 id="npm">npm</h1>
+
+<p>Node packages</p>
+
+<pre><code>sudo npm install -g bower
+sudo npm install -g gulp grunt
+sudo npm install -g less csslint
+</code></pre>
+
+<p>List all installed packages</p>
+
+<pre><code>npm list -g --depth 0
+</code></pre>
+
+<h1 id="pip-packages">Pip packages</h1>
+
+<p>python packages</p>
+
+<pre><code>sudo pip install Jinja2
+sudo pip install ansible
+sudo pip install Fabric
+sudo pip install Pygments
+sudo pip install awscli
+</code></pre>
+
+<p>list installed</p>
+
+<pre><code>pip list
+</code></pre>
+
+<h1 id="ruby-packages">Ruby packages</h1>
+
+<pre><code>sudo gem install jekyll bundler sass
+</code></pre>
+
+<p>list installed gems</p>
+
+<pre><code>gem list
+</code></pre>
+
+<h1 id="os-x-guides-and-tools">OS X guides and tools</h1>
+
+<h2 id="awesome-osx-command-line">awesome osx command line</h2>
+
+<p>A curated list of shell commands and tools specific to OS X.
+<a href="https://github.com/herrbischoff/awesome-osx-command-line">https://github.com/herrbischoff/awesome-osx-command-line</a></p>
+
+<h2 id="a-practical-guide-to-securing-os-x">A practical guide to securing OS X</h2>
+
+<p><a href="https://github.com/drduh/OS-X-Security-and-Privacy-Guide">https://github.com/drduh/OS-X-Security-and-Privacy-Guide</a></p>
+
+<h2 id="osxcollector">OSXCollector</h2>
+
+<p>A forensic evidence collection &amp; analysis toolkit for OS X <a href="http://yelp.github.io/osxcollector">http://yelp.github.io/osxcollector</a> (is a single Python file that runs without any dependencies)</p>
+
+<h2 id="little-snitch-firewall">Little Snitch Firewall</h2>
+
+<p>Buy it <a href="https://www.obdev.at/products/littlesnitch/index.html">https://www.obdev.at/products/littlesnitch/index.html</a></p>
+
+<h2 id="objective-see">Objective-See</h2>
+
+<p>Free, high quality, tools to detect malware  <a href="https://objective-see.com/products.html">https://objective-see.com/products.html</a></p>
+
+<h2 id="iterm2">iterm2</h2>
+
+<p>Replacement terminal <a href="https://www.iterm2.com/">https://www.iterm2.com/</a></p>
+
+  </section>
+
+  
+  <section>
+    <p><br></p>
+    <p><b>Post tags:</b></p>
+    <ul id="tags">
+      
+        <li><a href="/tags/dev">dev</a></li>
+      
+    </ul>
+
+    <div>
+  	
+  	 <a class="next" href="/post/hello-world/"> hello world </a> <span title="next" class="glyphicon glyphicon-arrow-right"></span> 
+    </div>
+  </section>
+  
+
+</article>
+
+
+<footer class="footer container" id="footer">
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/" target="new">CC-by-nc 4.0</a>
+</footer>
+
+</body>
+</html>
+
